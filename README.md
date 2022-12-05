@@ -1,1 +1,3 @@
-# WizardChess
+# WizardChess 🪄♟️
+
+## Description
