@@ -45,7 +45,9 @@ Software:
 
 5. **Oculus Escritorio**: Descargue e instale la aplicación de [Oculus para escritorio](https://www.meta.com/quest/setup/). Una vez iniciada la aplicación, verifique que la conexión entre su dispositivo Quest 2 y escritorio funcionan al conectar estos y verificar la sección de dispositivos. En esta se debería mostrar el dispositivo y el estado "conectado".
 
-6. **Oculus Móvil**: Descargue e instale la aplicación de Oculus en su dispositivo móvil. 
+6. En caso de que no tenga una cuenta de desarrollador y no pertenezca a ninguna organización, dirijase a https://dashboard.oculus.com/organizations/create/ y diligencie la información necesaria para crear una organización. 
+
+7. **Oculus Móvil**: Descargue e instale la aplicación de Oculus en su dispositivo móvil. Siga las instrucciones en el dispositivo para iniciar sesión con su cuenta de desarrollador de Oculus. En el apartado de configuraciones, active el modo de desarrollador.
 
 **Una vez se sigan estos pasos de configuración, se puede seguir a descargar e importar el proyecto en Unity**
 
@@ -63,5 +65,14 @@ git clone https://github.com/necalero/WizardChess
 ![imagen](https://user-images.githubusercontent.com/53950535/205788029-d310abf7-adf6-45e6-a950-a93717fb9a86.png)
 
 ### Instrucciones para ejecutar el proyecto de Wizard Chess desde Unity:
+
+1. Conecte el dispositivo Quest 2 a su computador y verifique la conexión de este mediante la aplicación de Oculus de escritorio. 
+2. Abra el proyecto en Unity
+3. Abra *File* -> *Build and Run* 
+4. Verifique que la configuración de las escenas es igual a la que se muestra a continuación:
+![imagen](https://user-images.githubusercontent.com/53950535/205791449-e1e15898-dbe8-4065-b0e8-4e0831dd252f.png)
+5. Verifique que la configuración adicional es igual a la que se muestra a continuación:
+
+
 
 
