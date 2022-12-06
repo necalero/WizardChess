@@ -44,6 +44,8 @@ Software:
 ![imagen](https://user-images.githubusercontent.com/53950535/205779138-c3c68cf4-cb0a-4c8b-aeaa-e33dd536ce56.png)
 
 5. **Oculus Escritorio**: Descargue e instale la aplicación de [Oculus para escritorio](https://www.meta.com/quest/setup/). Una vez iniciada la aplicación, verifique que la conexión entre su dispositivo Quest 2 y escritorio funcionan al conectar estos y verificar la sección de dispositivos. En esta se debería mostrar el dispositivo y el estado "conectado".
+![imagen](https://user-images.githubusercontent.com/53950535/205801643-7efd9740-d977-4726-82e9-5e616ebf0b59.png)
+
 
 6. En caso de que no tenga una cuenta de desarrollador y no pertenezca a ninguna organización, dirijase a https://dashboard.oculus.com/organizations/create/ y diligencie la información necesaria para crear una organización. 
 
