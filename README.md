@@ -1,6 +1,6 @@
 # Wizard Chess 🪄♟️
 
-## Descripción: 
+### Descripción: 
 Wizard Chess es un ajedrez en realidad virtual por control de voz cuyo objetivo principal es incentivar a personas que han tenido poco contacto con el ajedrez a jugarlo de una manera más entretenida. Para ello se creó un juego multijugador cooperativo en el cual el usuario puede comandar las fichas por medio de su voz en un escenario con un ambiente mágico.
 
 ![imagen](https://user-images.githubusercontent.com/53950535/205774857-7ce345ff-964d-4128-8205-65379b1c9b34.png)
@@ -12,7 +12,7 @@ Wizard Chess es un ajedrez en realidad virtual por control de voz cuyo objetivo 
 
 ---
 
-## Para instalar Wizard Chess:
+## Prerrequisitos, descarga y ejecución:
 
 A continuación, se describen los prerequisitos, las instrucciones y consideraciones adicionales para poder correr Wizard Chess en tu propia maquina.
 
@@ -27,9 +27,11 @@ Software:
 - [x] Unity Hub (De preferencia 3.x.x)
 - [x] Unity 2021.3.8f1 
 - [x] Android SDK
+- [x] Aplicación Oculus Escritorio
+- [x] Aplicación Oculus Dispositivo Móvil 
 
 
-### Instrucciones: 
+### Instrucciones para configurar ambiente de trabajo: 
 
 1. **Git Bash**: Para instalar Git bash, dirijase a la siguiente página https://git-scm.com/downloads y seleccione la versión correspondiente a su sistema operativo. Siga las instrucciones que se presentan en el instalador hasta terminar la instalación.
 
@@ -41,4 +43,25 @@ Software:
 4. **Android SDK**: Al seleccionar la opción de Unity Hub en el último paso, se abrirá su aplicación de Unity Hub con más detalles y opciones para instalar la versión solicitada de Unity. En esta pestaña, seleccione las opciones de *Android Build Support* como se muestra en la imagen de abajo y de click en continuar.
 ![imagen](https://user-images.githubusercontent.com/53950535/205779138-c3c68cf4-cb0a-4c8b-aeaa-e33dd536ce56.png)
 
+5. **Oculus Escritorio**: Descargue e instale la aplicación de [Oculus para escritorio](https://www.meta.com/quest/setup/). Una vez iniciada la aplicación, verifique que la conexión entre su dispositivo Quest 2 y escritorio funcionan al conectar estos y verificar la sección de dispositivos. En esta se debería mostrar el dispositivo y el estado "conectado".
+
+6. **Oculus Móvil**: Descargue e instale la aplicación de Oculus en su dispositivo móvil. 
+
 **Una vez se sigan estos pasos de configuración, se puede seguir a descargar e importar el proyecto en Unity**
+
+### Instrucciones para descargar e importar el proyecto de Wizard Chess en Unity:
+
+1. Abra la carpeta donde desea ubicar el proyecto
+2. Corra Git Bash desde esta carpeta, como se muestra a continuacion:
+![imagen](https://user-images.githubusercontent.com/53950535/205787401-fb045dca-1d04-4396-af2c-c17719aeb05b.png)
+
+3. Clone el proyecto en la carpeta deseada, ejecutando el siguiente comando desde la ventana que se abrió de Git Bash
+```git
+git clone https://github.com/necalero/WizardChess
+```
+4. Desde Unity Hub, seleccione la opción de abrir un nuevo proyecto y seleccione el directorio donde clonó el proyecto.
+![imagen](https://user-images.githubusercontent.com/53950535/205788029-d310abf7-adf6-45e6-a950-a93717fb9a86.png)
+
+### Instrucciones para ejecutar el proyecto de Wizard Chess desde Unity:
+
+
