@@ -67,11 +67,33 @@ git clone https://github.com/necalero/WizardChess
 ### Instrucciones para ejecutar el proyecto de Wizard Chess desde Unity:
 
 1. Conecte el dispositivo Quest 2 a su computador y verifique la conexión de este mediante la aplicación de Oculus de escritorio. 
+
 2. Abra el proyecto en Unity
+
 3. Abra *File* -> *Build and Run* 
+
 4. Verifique que la configuración de las escenas es igual a la que se muestra a continuación:
+ 
 ![imagen](https://user-images.githubusercontent.com/53950535/205791449-e1e15898-dbe8-4065-b0e8-4e0831dd252f.png)
-5. Verifique que la configuración adicional es igual a la que se muestra a continuación:
+
+6. Verifique que la configuración adicional es igual a la que se muestra a continuación:
+![imagen](https://user-images.githubusercontent.com/53950535/205793196-0eb5f32f-09e7-4fef-aa5b-c27e4ca7479e.png)
+
+7. Finalmente, de click en el botón Build and Run para construir el APK y ejecutarlo desde su dispositivo. 
+
+### Instrucciones de juego
+
+- Para iniciar la partida, haga click en el botón A
+
+- Para moverse por las distintas zonas del tablero, haga click en el botón X 
+
+- Para activar la funcionalidad de movimiento de fichas por medio de comandos de voz, se debe oprimir y mantener el botón *Right Grip* hasta que termine de dictar el movimiento. El comando de voz debe seguir la estructura: 
+
+  (Ficha) (Posición actual) (Posición deseada)
+  
+  Un ejemplo de esto sería decir el comando “Peón B2 B3” para mover el peón de la posición inicial B2 a la posición deseada B3 y así iniciar la partida
+  
+- Para mover manualmente una ficha, mantenga oprimido el botón A mientras apunta a una ficha con su control derecho. Mueva la ficha hasta la posición deseada y suelte el botón A para confirmar su movimiento
 
 
 
